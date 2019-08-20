@@ -77,8 +77,6 @@ a, a:hover{
 
 .company-name-format{
     font-size: 1.8rem;
-    /* padding-top: 4%; */
-    /* padding-right: 45%; */
     margin-bottom: 0; 
 }
 
@@ -94,7 +92,20 @@ a, a:hover{
 
 .job-role{
     font-size: 1.5rem;
-    /* padding-top: 7%; */
     margin-bottom: 0; 
     color: #8C712F;
+}
+
+/* Experience section styles ----------------------------------- */
+
+.project-img-container{
+    height: 380px !important;
+}
+
+.project-img{
+    height: 85%;
+}
+
+.project-img-container:hover{
+    transform: scale(1.1,1.1);
 }
