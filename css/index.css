@@ -35,6 +35,10 @@ a, a:hover{
     color: #E31B6D !important;
 }
 
+/* .navbar-nav .nav-link:active {
+    color: white !important;
+} */
+
 /* Headings styles  */
 .section-headings{
     border-bottom: 6px solid black; 
