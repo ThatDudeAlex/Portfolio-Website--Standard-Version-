@@ -56,6 +56,11 @@ a, a:hover{
     padding-top: 10px;
 }
 
+.card-footer{
+    /* padding-right:  50px !important; */
+    margin-left: -15px !important;
+}
+
 /* Intro section styles ----------------------------------- */
 
 /* Profile picture styles */
@@ -96,7 +101,7 @@ a, a:hover{
     color: #8C712F;
 }
 
-/* Experience section styles ----------------------------------- */
+/* Project section styles ----------------------------------- */
 
 .project-img-container{
     height: 380px !important;
@@ -108,4 +113,16 @@ a, a:hover{
 
 .project-img-container:hover{
     transform: scale(1.1,1.1);
+}
+
+/* Skills section styles ----------------------------------- */
+.skill-name{
+    font-size: 2rem;
+    margin-bottom: 0; 
+    color: #8C712F;
+    border-bottom: 1px solid lightgray;
+}
+
+.skill-img{
+    height: 150px;
 }
