@@ -1,6 +1,15 @@
-Entire page styles
+/* Entire page styles */
 *{
     font-family: 'Roboto', sans-serif;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+a, a:hover{
+    text-decoration: none;
 }
 
 .page_background_image{
@@ -32,6 +41,17 @@ Entire page styles
     color: black;
 }
 
+/* Card styles */
+.card{
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.card-body{
+    padding-top: 10px;
+}
+
 /* Intro section styles ----------------------------------- */
 
 /* Profile picture styles */
@@ -47,4 +67,30 @@ Entire page styles
 #introduction{
     font-size: 1.2rem;
     line-height: 1.6;
+}
+
+/* Experience section styles ----------------------------------- */
+
+.company-name-format{
+    font-size: 1.8rem;
+    padding-top: 4%;
+    /* padding-right: 45%; */
+    margin-bottom: 0; 
+}
+
+.company-name{
+    border-bottom: 3px hidden black;
+    color: #1769A5;
+    transition: border-bottom 0.4s ease
+}
+
+.company-name:hover{
+    border-bottom: 3px solid; 
+}
+
+.job-role{
+    font-size: 1.5rem;
+    padding-top: 7%;
+    margin-bottom: 0; 
+    color: #8C712F;
 }
