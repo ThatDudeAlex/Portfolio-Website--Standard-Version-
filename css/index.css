@@ -1,4 +1,4 @@
-/* Entire page styles */
+/* General page styles */
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -16,17 +16,29 @@ a, a:hover{
     text-decoration: none;
 }
 
+
 .page_background_image{
-    background-image: linear-gradient(45deg,#5cb5ea 45%, black 43%, 47%, #d6b870 47%);
-    /* width: 100%;
-    height: 100%; */
+    background-image: linear-gradient(45deg,#5cb5ea 50%, black 50%, 52%, #d6b870 52%);
 }
 
-/*  Navigation bar styles */
-.nav-bg{
+/* Background color styles */
+.bg-black{
     background-color: black;
 }
 
+.text-blue{
+    color: #5cb5ea;
+}
+
+.text-pink{
+    color: rgb(161, 20, 79);
+}
+
+.text-grey{
+    color: #50585a;
+}
+
+/* Navigation bar styles */
 .navbar-brand:hover{
     color: #E31B6D !important;
 }
@@ -41,8 +53,12 @@ a, a:hover{
 
 /* Headings styles  */
 .section-headings{
-    border-bottom: 6px solid black; 
+    /* border-bottom: 6px solid black;  */
     color: black;
+}
+
+.contact-heading{
+    font-size: 40px;
 }
 
 /* Card styles */
@@ -126,3 +142,27 @@ a, a:hover{
 .skill-img{
     height: 150px;
 }
+
+/* Contact section styles ----------------------------------- */
+.contact-icons{
+    height: 60px;
+    width:  50px;
+}
+
+.contact-icons2{
+    height: 10px;
+    width:  130px;
+}
+
+.nav .nav-link{
+    background-color: #2c3641 !important;
+}
+
+.nav .nav-link:hover{
+    background-color: #5cb5ea !important;
+}
+
+#contact-question{
+    color: #5cb5ea;
+}
+
