@@ -1,0 +1,40 @@
+/* Page styles */
+*{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Background color styles */
+.bg-black{
+    background-color: black;
+}
+
+/* text-colors */
+.text-blue{
+    color: #5cb5ea;
+}
+
+.text-pink{
+    color: rgb(161, 20, 79);
+}
+
+.text-grey{
+    color: #50585a;
+}
+
+/* Navigation bar styles */
+.navbar-brand:hover{
+    color: #E31B6D !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E31B6D !important;
+}

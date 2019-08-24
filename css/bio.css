@@ -1,0 +1,16 @@
+/* general styles  */
+
+.page_background_image{
+    background-color: #d6b870;
+}
+
+/* list styles--------- */
+.list-style-book{
+    list-style-image: url("../images/icons/book-icon.svg");
+}
+
+.list-style-leaf{
+    list-style-image: url("../images/icons/list-icon-4.svg");
+}
+
+

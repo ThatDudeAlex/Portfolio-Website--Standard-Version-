@@ -1,11 +1,4 @@
-/* General page styles */
-*{
-    font-family: 'Roboto', sans-serif;
-}
-
-html{
-    scroll-behavior: smooth;
-}
+/* General styles */
 
 li {
     margin-bottom: 10px;
@@ -16,50 +9,16 @@ a, a:hover{
     text-decoration: none;
 }
 
-
 .page_background_image{
     background-image: linear-gradient(45deg,#5cb5ea 50%, black 50%, 52%, #d6b870 52%);
 }
 
-/* Background color styles */
-.bg-black{
-    background-color: black;
+
+.headings-underline{
+    height: 10px;
+    width:  130px;
 }
 
-.text-blue{
-    color: #5cb5ea;
-}
-
-.text-pink{
-    color: rgb(161, 20, 79);
-}
-
-.text-grey{
-    color: #50585a;
-}
-
-/* Navigation bar styles */
-.navbar-brand:hover{
-    color: #E31B6D !important;
-}
-
-.navbar-nav .nav-link {
-    color: white !important;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #E31B6D !important;
-}
-
-/* Headings styles  */
-.section-headings{
-    /* border-bottom: 6px solid black;  */
-    color: black;
-}
-
-.contact-heading{
-    font-size: 40px;
-}
 
 /* Card styles */
 .card{
@@ -73,8 +32,11 @@ a, a:hover{
 }
 
 .card-footer{
-    /* padding-right:  50px !important; */
     margin-left: -15px !important;
+}
+
+.card-exp-intro{
+    border-top: 1px solid lightgray;
 }
 
 /* Intro section styles ----------------------------------- */
@@ -149,11 +111,6 @@ a, a:hover{
     width:  50px;
 }
 
-.contact-icons2{
-    height: 10px;
-    width:  130px;
-}
-
 .nav .nav-link{
     background-color: #2c3641 !important;
 }
@@ -162,7 +119,4 @@ a, a:hover{
     background-color: #5cb5ea !important;
 }
 
-#contact-question{
-    color: #5cb5ea;
-}
 

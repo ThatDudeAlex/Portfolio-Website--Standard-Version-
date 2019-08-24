@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <!--     My CSS    -->
+    <link rel="stylesheet" href="../css/general-styles.css">
     <link rel="stylesheet" href="../css/index.css">
 
     <title>Jose Nunez | Welcome To My Website!</title>
@@ -24,9 +25,12 @@
 
         <!--- Navigation Bar  ------------------------>
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
+            <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top navbar-inverse">
                 <div class="container">
-                    <a class="navbar-brand nav-font" href="#">Home</a>
+
+                    <div data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="navbar-brand nav-font" href="#">Home</a>
+                    </div>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -36,19 +40,20 @@
 
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <!-- left nav items -->
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link" href="#experience">Experience <span
+                        <div class="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class="nav-item nav-link " href="#experience">Experience <span
                                     class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#project">Projects</a>
-                            <a class="nav-item nav-link" href="#skills">Skills</a>
-                            <a class="nav-item nav-link" href="#contact">Contact</a>
+                            <a class="nav-item nav-link " href="#project">Projects</a>
+                            <a class="nav-item nav-link " href="#skills">Skills</a>
+                            <a class="nav-item nav-link " href="#contact">Contact</a>
                         </div>
 
                         <!-- right nav items -->
-                        <div class="navbar-nav ml-auto">
+                        <div class="navbar-nav ml-auto" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a class="nav-item nav-link " href="#">Bio <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#">Blog</a>
-                            <a class="nav-item nav-link" href="#">Resume</a>
+                            <a class="nav-item nav-link " href="#">Blog (Coming Soon)</a>
+                            <a class="nav-item nav-link " href="https://drive.google.com/file/d/152HOTp8CKLcM5k-by6bFTNAudheUIW-Q/view?usp=sharing"
+                                target="_blank">Resume</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +66,8 @@
             <!-- About section -------->
             <div class="container text-center pt-4">
                 <h1 class="section-headings mb-0"><strong>ABOUT</strong></h1>
-                <img class="img-fluid contact-icons2 mt-2" src="../images/icons/contact-line-black.svg" alt="Card image cap">
+                <img class="img-fluid headings-underline mt-2" src="../images/icons/contact-line-black.svg"
+                    alt="Card image cap">
             </div>
 
             <div class="container">
@@ -79,7 +85,7 @@
                         <p>My name is <strong>Jose A Nunez</strong>, but I go by the name of
                             <strong>“Alex”</strong>.
                             I’m a <strong>Computer Science</strong> student
-                            at the <strong>University of Central Florida</strong>, Soon to graduate in
+                            at the <strong>University of Central Florida</strong>, soon to graduate in
                             <strong>December
                                 2019</strong>.
                         </p>
@@ -87,9 +93,9 @@
                         <p>
                             For as long as I can remember, I have always had a <strong>deep</strong> fascination for
                             both <strong>Technology</strong> & <strong>Business</strong>.
-                            Eventually during my early teens, i was inspired by entrepreneurs such as <strong>Bill
+                            Eventually during my early teens, I was inspired by entrepreneurs such as <strong>Bill
                                 Gates</strong> & <strong>Larry Page</strong>, to
-                            persue a career in Computer Science, and eventually join their ranks by becoming an
+                            pursue a career in Computer Science, and eventually join their ranks by becoming an
                             entrepreneur as well.
                         </p>
 
@@ -97,7 +103,7 @@
                             Please read my <strong>Bio</strong> if you would like to learn more about me. I will
                             finish
                             this introduction
-                            with a quote that I hold dear, and try to live by
+                            with a quote that I hold dear, and try to live by:
                         </p>
 
                         <blockquote class="blockquote text-right">
@@ -112,7 +118,8 @@
             <!-- Experience section -------->
             <div class="container text-center pt-1 mb-0" id="experience">
                 <h1 class="section-headings mb-0 pt-5"><strong>EXPERIENCE</strong></h1>
-                <img class="img-fluid contact-icons2 mt-2" src="../images/icons/contact-line-black.svg" alt="Card image cap">
+                <img class="img-fluid headings-underline mt-2" src="../images/icons/contact-line-black.svg"
+                    alt="Card image cap">
             </div>
 
             <!-- FIS card -->
@@ -144,7 +151,7 @@
                     <!-- Company description Row -->
                     <div class="row card-body">
                         <div class="col-12 text-left">
-                            <p class="pt-3 pb-2" style="border-top: 1px solid lightgray"> <em> A fortune 500
+                            <p class="pt-3 pb-2 card-exp-intro"> <em> A fortune 500
                                     company, and an international provider of financial service technology, and
                                     outsourcing services</em></p>
 
@@ -152,23 +159,23 @@
                                 <li> Developed multiple programs in COBOL, using in-house files to locate bank
                                     accounts and calculate their future balance after interest, generate
                                     interest reports showing a monthly interest breakdown, as well as generating
-                                    personalise notification letters for each inactive bank account on record</li>
-                                <li> Participate in weekly learning sessions, were each week a different executive
+                                    personalize notification letters for each inactive bank account on record</li>
+                                <li> Participated in weekly learning sessions, where each week a different executive
                                     within the company was the guest speaker </li>
-                                <li> Collaborated in a group of 20 interns, primarily consisting of interns located
+                                <li> Collaborated in a group of 20 interns, most of whom were located
                                     in Milwaukee, to complete a 7 week long project </li>
-                                <li> Attended multiple scrum meetings, to observe and learn from an agile
+                                <li> Attended multiple scrum meetings to observe and learn from an agile
                                     development team </li>
                             </ul>
 
 
                             <h5><strong>Accomplishments</strong></h5>
                             <ul>
-                                <li> I was the only intern within my development group, to be able to complete all 4
-                                    of the COBOL programs assignt to us </li>
-                                <li> Out of a class of 17 total interns, i was voted as "The most inquisitive" by my
+                                <li> I was the only intern within my development group to be able to complete all 4
+                                    of the COBOL programs assigned to us </li>
+                                <li> Out of a class of 17 interns, I was voted as "The Most Inquisitive" by my
                                     peers </li>
-                                <li> Self-taught myself COBOL, by completing an entire training course 1 week ahead
+                                <li> Self-taught myself COBOL by completing an entire training course 1 week ahead
                                     of schedule </li>
                                 <li> Received a score of 90% or above in all 7 COBOL assessment test, each one
                                     consisting of 80 questions on average</li>
@@ -203,8 +210,8 @@
                             <div class="company-name-format pt-5 pt-md-3">
                                 <span>
                                     <a href="https://valenciacollege.edu/" target="_blank" class="company-name">
-                                        Valencia
-                                        College </a>
+                                        Valencia College
+                                    </a>
                                 </span>
                             </div>
                         </div>
@@ -217,14 +224,15 @@
                     <!-- Company description Row -->
                     <div class="row card-body">
                         <div class="col-12 text-left">
-                            <p class="pt-3 pb-2" style="border-top: 1px solid lightgray"> <em> A public state college,
-                                    located in Orlando, Florida </em></p>
+                            <p class="pt-3 pb-2 card-exp-intro">
+                                <em> A public state college, located in Orlando, Florida </em>
+                            </p>
 
                             <ul>
-                                <li> Provide supplemental math tutoring, in subjects such as Algebra, Calculus, and
-                                    Differential
-                                    Equations to students </li>
-                                <li> Host learning seminars, that focus on 1 specific math related topics at a time
+                                <li> Provide supplemental math tutoring, in subjects such as algebra, calculus, and
+                                    differential
+                                    equations to students </li>
+                                <li> Host learning seminars that focus on 1 specific math related topics at a time
                                 </li>
                             </ul>
 
@@ -234,7 +242,6 @@
                                         II</strong> </li>
                             </ul>
                         </div>
-
                     </div>
 
                     <div class="footer-wrapper ml-3 pl-3">
@@ -252,7 +259,9 @@
             <!-- Project section -------->
             <div class="container text-center pt-1 mb-0" id="project">
                 <h1 class="section-headings mb-0 pt-5"><strong>PROJECTS</strong></h1>
-                <img class="img-fluid contact-icons2 mt-2" src="../images/icons/contact-line-black.svg" alt="Card image cap">
+                <img class="img-fluid headings-underline mt-2" src="../images/icons/contact-line-black.svg"
+                    alt="Card image cap">
+                <footer class="text-secondary">Detail descriptions coming soon</footer>
             </div>
 
             <!-- container for project cards -->
@@ -285,9 +294,9 @@
                     <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0" style="width: 18rem;">
                         <div class="card text-center project-img-container">
                             <div class="card-header">
-                                <h5 class="pt-2 mb-0"><strong> Robot Vision </strong></h5>
+                                <h5 class="pt-2 mb-0"><strong> Image Edge Detection </strong></h5>
                             </div>
-                            <img class="img-fluid project-img" src="../images/projects/robot_vision_prj.svg"
+                            <img class="img-fluid project-img" src="../images/projects/cannyFinal.png"
                                 alt="Card image cap">
                         </div>
                     </div>
@@ -296,7 +305,7 @@
                     <div class="col-12 col-md-6 col-lg-3" style="width: 18rem;">
                         <div class="card text-center project-img-container">
                             <div class="card-header">
-                                <h5 class="pt-2 mb-0"><strong> Step Counter </strong></h5>
+                                <h5 class="pt-2 mb-0"><strong> Step Counter App </strong></h5>
                             </div>
                             <img class="img-fluid project-img" src="../images/projects/watch_prj.svg"
                                 alt="Card image cap">
@@ -309,7 +318,8 @@
             <!-- Skills section -------->
             <div class="container text-center pt-1 mb-0" id="skills">
                 <h1 class="section-headings mb-0 pt-5"><strong>SKILLS</strong></h1>
-                <img class="img-fluid contact-icons2 mt-2" src="../images/icons/contact-line-black.svg" alt="Card image cap">
+                <img class="img-fluid headings-underline mt-2" src="../images/icons/contact-line-black.svg"
+                    alt="Card image cap">
             </div>
 
             <!-- Languages Card -->
@@ -519,21 +529,24 @@
 
 
             <!-- Contact section -------->
-            
-            <img class="img-fluid pt-2 pb-0" src="../images/icons/contact-border.svg" alt="Card image cap" style="width: 100%;">
+
+            <img class="img-fluid pt-2 pb-0" src="../images/icons/contact-border.svg" alt="Card image cap"
+                style="width: 100%;">
 
             <div class="bg-black">
-                <div class="container text-center pt-5 mb-3 text-white" id="contact">
-                    <h1 class="mb-0 pb-0">CONTACT</h1>
-                    <img class="img-fluid contact-icons2 mt-2" src="../images/icons/contact-line-white.svg" alt="Card image cap">
-                    <h5 class="mt-4 mb-3" id="contact-question"> Have a questions or want to connect?</h5>
+                <div class="container text-center pt-5 mb-3" id="contact">
+                    <h1 class="mb-0 pb-0 text-white">CONTACT</h1>
+                    <img class="img-fluid headings-underline mt-2" src="../images/icons/contact-line-white.svg"
+                        alt="Card image cap">
+                    <h5 class="mt-4 mb-3 text-blue"> Have a questions or want to connect?</h5>
                 </div>
 
                 <div class="container mt-4 pb-5">
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="nav justify-content-center">
-                                <a class="nav-link mr-5" href="http://www.linkedin.com/in/alex-nunez-76545617b" target="_blank">
+                                <a class="nav-link mr-5" href="http://www.linkedin.com/in/alex-nunez-76545617b"
+                                    target="_blank">
                                     <img class="img-fluid contact-icons" src="../images/icons/linkedin-white.svg"
                                         alt="Card image cap">
                                 </a>
@@ -551,16 +564,12 @@
 
         <!-- Page Footer ----------------------------->
         <footer>
-            <div class="container-fluid bg-black text-center text-grey pb-5">
-                JOSE A NUNEZ <span class="text-pink">&copy;</span>2019
+            <div class="container-fluid bg-black text-center pb-5">
+                <p class="text-grey">JOSE A NUNEZ <span class="text-pink">&copy;</span>2019</p>
             </div>
-
         </footer>
 
-
-
-        <!-- scripts --------------------------------->
-
+        <!-- Scripts Section--------------------------------->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
