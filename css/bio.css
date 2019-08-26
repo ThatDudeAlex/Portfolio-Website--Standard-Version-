@@ -1,16 +1,13 @@
 /* general styles ------------------- */
 
 .page_background_image{
-    /* background-color: #f8d071; */
-    /* #d6b870 */
-    /* #f8d071 */
-    background-image: linear-gradient(#5cb5ea 30%, black 30%, 32%, #f8d071 32%);
+    background-color: #f8d071;
 }
 
 /* list styles--------- */
 ul{
     padding-inline-start: 20px;
-    list-style: none;
+    /* list-style: none; */
 }
 
 
@@ -27,6 +24,7 @@ ul{
 
 .text-introduction{
     font-family: "alternate_gothic_no2_dregular";
+    font-size: 32px;
 }
 
 .text-bio-par{
@@ -36,7 +34,7 @@ ul{
 }
 
 .contact-bar{
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .contact-bar:hover{
@@ -45,7 +43,7 @@ ul{
 
 .section-heading{
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 20px;
 }
 
 /* Image styles */
@@ -55,3 +53,14 @@ ul{
     border: solid black 3px;
 }
 
+/* @media screen and (max-width: 719px) and (min-width: 500px)  {
+    .text-introduction{
+        font-size: 32px;
+    }
+} */
+
+@media (min-width: 720px) {
+    .text-introduction{
+        font-size: 50px;
+    }
+}
