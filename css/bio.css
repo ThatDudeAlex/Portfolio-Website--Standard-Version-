@@ -1,16 +1,57 @@
-/* general styles  */
+/* general styles ------------------- */
 
 .page_background_image{
-    background-color: #d6b870;
+    /* background-color: #f8d071; */
+    /* #d6b870 */
+    /* #f8d071 */
+    background-image: linear-gradient(#5cb5ea 30%, black 30%, 32%, #f8d071 32%);
 }
 
 /* list styles--------- */
-.list-style-book{
-    list-style-image: url("../images/icons/book-icon.svg");
+ul{
+    padding-inline-start: 20px;
+    list-style: none;
 }
 
-.list-style-leaf{
-    list-style-image: url("../images/icons/list-icon-4.svg");
+
+/* text styles--------------------- */
+
+/* Intro text */
+@font-face {
+    font-family: 'alternate_gothic_no2_dregular';
+    src: url("custom-fonts/Alternate-Gothic-No2 D-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+.text-introduction{
+    font-family: "alternate_gothic_no2_dregular";
+}
+
+.text-bio-par{
+    font-size: 1.1rem;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.contact-bar{
+    font-size: 18px;
+}
+
+.contact-bar:hover{
+    border-bottom: solid black 3px;
+}
+
+.section-heading{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/* Image styles */
+#img-personality{
+    width: 70%;
+    border-radius: 5%;
+    border: solid black 3px;
+}
 

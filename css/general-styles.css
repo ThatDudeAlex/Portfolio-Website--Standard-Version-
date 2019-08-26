@@ -4,6 +4,10 @@
     color: black;
 }
 
+a, a:hover{
+    text-decoration: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -37,4 +41,11 @@ html{
 
 .navbar-nav .nav-link:hover {
     color: #E31B6D !important;
+}
+
+/* card styles */
+.card{
+    border-radius: 20px;
+    border: 4px solid black;
+  
 }
