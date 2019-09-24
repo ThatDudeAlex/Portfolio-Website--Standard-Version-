@@ -119,4 +119,50 @@ li {
     background-color: #5cb5ea !important;
 }
 
+/* -------------------------- */
+.portfolioBox {
+    border: 3px solid black;
+    border-radius: 2%;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+    display: inline-block;
+    /* margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px; */
+    vertical-align: top;
+    /* flex: 1 1; */
+}
+
+
+
+.portfolioBio {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.portfolioLink {
+    text-decoration: none;
+    color: #000;
+}
+
+.portfolioText {
+    font-size: 70%;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.portfolioLowerBox, .portfolioUpperBox {
+    /* display: flex; */
+}
+
+.innerContainer {
+    padding: 3% 10% 5%;
+}
+
+
+.test{
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+
 
